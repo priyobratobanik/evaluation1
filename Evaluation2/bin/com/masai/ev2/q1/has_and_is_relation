@@ -1,0 +1,42 @@
+Is a relationship:-
+Is a relation is formed with a mininum of 2 classes with perticuler relation.
+It is a also known as inheritance in java.
+for example we can say that house is a class.
+but green house ,building house,rest house,forest house is also a type of house.
+so from all the example  of houses there is common feature which is house,color of house,location of house etc.
+
+Is a relationship is implemented by using extends keyword in java inheritance.so wherever we use extends keyword that signifies Is a relationship.
+ ex-
+ class House{
+ String color;
+ String address;
+  
+  public int getLocation(){
+  return location;
+}
+
+class Buildinghouse extends House{
+}
+
+
+
+Has a relationship-
+
+this type of relationship also be formed by minimum of 2 classes.
+if any class has an instance variable that referring any another class.
+Has a relationship is also known as composition and aggregation.
+we have use new keyword for implementing has a relationship.
+
+the main advantage of has a relationship is reusability of code  like,
+class Engine{
+//it has specific functionality
+}
+class Bike{
+Engine eg=new Engine();
+}
+
+this bike has a engine reference.
+
+
+class Bike{
+
